@@ -1,0 +1,4 @@
+/metadata/*
+!/metadata/layout.conf
+!/metadata/pkg_desc_index
+/profiles/use.local.desc
