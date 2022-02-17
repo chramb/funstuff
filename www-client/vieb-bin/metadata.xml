@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<use>
+		<flag name="system-ffmpeg">Use the system-wide <pkg>media-video/ffmpeg</pkg> instead of bundled one.</flag>
+		<flag name="system-mesa">Use the system-wide <pkg>media-libs/mesa</pkg> instead of bundled one.</flag>
+		<flag name="system-7zip">Use the system-wide <pkg>app-arch/p7zip</pkg> instead of bundled one.</flag>
+		<flag name="examples">Install example configuration files.</flag>
+		<flag name="wayland">Install script that enables Wayland support automatically.</flag>
+	</use>
+</pkgmetadata>
