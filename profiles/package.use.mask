@@ -3,7 +3,7 @@
 
 # New entries go on top.
 
-# Krzysztof Ambroży <chramb@@users.noreply.github.com> (2022-02-18)
+# Krzysztof Ambroży <chramb@users.noreply.github.com> (2022-02-18)
 # Upstream electron bug causes Segmentation fault on Wayland
 # See https://github.com/Jelmerro/Vieb/issues/349
 # Upstream https://github.com/electron/electron/issues/32436
