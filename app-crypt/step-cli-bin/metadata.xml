@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<use>
+		<flag name="bash-completions">Enable bash-completion support</flag>
+		<flag name="zsh-completions">Enable zsh completion support</flag>
+	</use>
+</pkgmetadata>
