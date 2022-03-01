@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<longdescription lang="en">
+		Netavark is a rust based network stack for containers. It is being designed 
+		to work with <pkg>app-containers/podman</pkg> but is also applicable for other OCI container management applications.
+	</longdescription>
+	<use>
+		<flag name="dns">
+			Install <pkg>net-misc/aardvark-dns</pkg> as container DNS server.
+		</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">containers/netavark</remote-id>
+	</upstream>
+</pkgmetadata>
