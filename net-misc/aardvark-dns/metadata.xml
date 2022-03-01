@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<longdescription lang="en">
+		Authoritative dns server for A/AAAA container records. Forwards other request
+		to configured resolvers. It is mostly intended to be used with <pkg>net-misc/netavark</pkg> which
+		will launch it automatically if both are installed.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">containers/aardvark-dns</remote-id>
+	</upstream>
+</pkgmetadata>
