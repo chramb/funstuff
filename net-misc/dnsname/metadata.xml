@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<longdescription lang="en">
+		Netavark is a rust based network stack for containers. It is being designed 
+		to work with <pkg>app-containers/podman</pkg> but is also applicable for other OCI container management applications.
+		This plugin sets up the use of dnsmasq on a given CNI network so that Pods 
+		can resolve each other by name. When configured, the pod and its IP address 
+		are added to a network specific hosts file that dnsmasq reads in. Similarly, 
+		when a pod is removed from the network, it will remove the entry from the hosts file.
+		Each CNI network will have its own dnsmasq instance.
+
+		The dnsname plugin was specifically designed for the <pkg>app-containers/podman</pkg> container engine.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">containers/dnsname</remote-id>
+	</upstream>
+</pkgmetadata>
