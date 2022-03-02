@@ -159,7 +159,7 @@ pkg_postinst() {
 		want_newline=true
 	fi
 
-	elog "If this is an upgrade to a current Podman install,"
+	elog "If this is an upgrade to a Podman version <4.0.0,"
 	elog "destroy all current images, containers, and defined networks."
 	elog "$ podman reset --force"
 
