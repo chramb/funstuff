@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>chramb@@users.noreply.github.com</email>
+		<name>Krzysztof Ambroży</name>
+	</maintainer>
+	<longdescription lang="en">
+		stig is a TUI (text user interface) and CLI (command line interface) client for the BitTorrent client <pkg>net-p2p/transmission</pkg>
+	</longdescription>
+	<use>
+		<flag name="setproctitle">
+			Set custom process titile with <pkg>dev-python/setproctitle</pkg>.
+		</flag>
+		<flag name="proxy">
+			Eable support for proxy with <pkg>dev-python/aiohttp-socks</pkg>.
+		</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">rndusr/stig</remote-id>
+	</upstream>
+</pkgmetadata>
