@@ -1,0 +1,8 @@
+amd64 default/linux/amd64/17.1/systemd/hardened exp
+amd64 default/linux/amd64/17.1/systemd/hardened/selinux exp
+amd64 default/linux/amd64/17.1/desktop/systemd/hardened exp
+amd64 default/linux/amd64/17.1/desktop/systemd/hardened/selinux exp
+amd64 default/linux/amd64/17.1/no-multilib/systemd/hardened exp
+amd64 default/linux/amd64/17.1/no-multilib/systemd/hardened/selinux exp
+amd64 default/linux/amd64/17.1/no-multilib/desktop/systemd/hardened exp
+amd64 default/linux/amd64/17.1/no-multilib/desktop/systemd/hardened/selinux exp
